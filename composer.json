@@ -1,6 +1,6 @@
 {
-	"name" : "itsjeffro/laravel-package-boilerplate",
-	"description" : "Boilerplate for setting up a Laravel package",
+	"name" : "itsjeffro/laravel-app-package-boilerplate",
+	"description" : "Boilerplate for setting up a Laravel application package",
 	"license" : "MIT",
 	"authors" : [{
 			"name" : "Jeff Nielsen",
