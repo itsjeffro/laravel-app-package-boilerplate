@@ -6,21 +6,8 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>Example</title>
-    <style>
-        body {
-            font-family: helvetica, sans-serif;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        #app {
-            text-align: center;
-            position: absolute;
-            width: 100%;
-            top: 50%;
-            margin-top: -100px;
-        }
-    </style>
+    
+    <link href="{{ mix('app.css', 'vendor/example') }}" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<div id="app">
