@@ -24,12 +24,12 @@ Files:
 * ExampleServiceProvider.php > PackageServiceProvider.php
 
 Contents:
-* TBA
+* composer.json: Update name, for example "vendor/package"
 
 #### Composer
 To treat this like any other vendor package, we want to create a symlink inside the composer vendor directory and reference the package we cloned into the app/ directory.
 
-```
+```json
 {
     
 ...
@@ -49,7 +49,11 @@ To treat this like any other vendor package, we want to create a symlink inside 
 }
 ```
 
-Once the portion above has been added to the composer.json file in our Laravel installtion, you may run composer install.
+Once the portion above has been added to the composer.json file in our Laravel installation, you may run composer require.
+
+```bash
+composer require vendor/package
+```
 
 #### Service provider
 TBA
